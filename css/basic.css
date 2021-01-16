@@ -27,14 +27,14 @@ h3{
 		left: 0;
 		right: 0;
 	}
-	.copyright_pc{
+	footer{
 		visibility: hidden;
 	}
 }
 div.map_link{
 	text-align: right;
 }
-p.copyright_pc{
+footer{
 	text-align: center;
 }
 .map_link img:hover, .mail:hover{
