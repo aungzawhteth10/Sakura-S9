@@ -11,21 +11,31 @@ h3{
 	div.img img{
 		width: 50%;
 	}
+	.contact_phone{
+		visibility: hidden;
+	}
 }
 /* スマートフォン用ＣＳＳ */
 @media (max-device-width: 480px){
 	div.img img{
 		width: 100%;
 	}
+	.contact_phone{
+		text-align: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.copyright_pc{
+		visibility: hidden;
+	}
 }
 div.map_link{
 	text-align: right;
 }
-p.copyright{
+p.copyright_pc{
 	text-align: center;
-}
-.contact_phone{
-	text-align: center;;
 }
 .map_link img:hover, .mail:hover{
 	cursor: pointer;
