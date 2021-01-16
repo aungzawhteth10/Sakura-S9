@@ -9,13 +9,13 @@ h3{
 /* PC用ＣＳＳ */
 @media (min-device-width: 481px){
 	div.img img{
-		width: 40%;
+		width: 50%;
 	}
 }
 /* スマートフォン用ＣＳＳ */
 @media (max-device-width: 480px){
 	div.img img{
-		width: 50%;
+		width: 100%;
 	}
 }
 div.map_link{
