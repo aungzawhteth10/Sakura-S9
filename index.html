@@ -16,12 +16,16 @@
 		<img src="images/logo.png">
 	</div>
 	<h3>ミャンマー料理・タイ料理・居酒屋</h3>
-	<div>
-		<a href="https://goo.gl/maps/aeuRy2gkpCwXFGWG8" target="_blank">
-			<img src="images/map.png">
-		</a>
-		<a href="https://www.facebook.com/SakuraS9Takadanobaba" target="_blank">
-			<img src="images/facebook.png">
-		</a>
+	<div class="map_link">
+		<img src="images/map.png" onclick="open_map()">
+		<img src="images/facebook.png" onclick="open_facebook_page()">
 	</div>
 </body>
+<script>
+	function open_map() {  
+		window.open("https://goo.gl/maps/aeuRy2gkpCwXFGWG8", "_blank");
+	}
+	function open_facebook_page() {  
+		window.open("https://www.facebook.com/SakuraS9Takadanobaba", "_blank");
+	}
+</script>
