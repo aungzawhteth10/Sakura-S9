@@ -3,6 +3,9 @@ div.title{
 	height: 81px;
 	text-align:center;
 }
+h3{
+	text-align:center;
+}
 //PC用ＣＳＳ
 @media screen and (min-width: 481px){
 
