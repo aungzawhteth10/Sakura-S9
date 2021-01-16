@@ -6,13 +6,17 @@ div.title{
 h3{
 	text-align: center;
 }
-//PC用ＣＳＳ
-@media screen and (min-width: 481px){
-
+/* PC用ＣＳＳ */
+@media (min-device-width: 481px){
+	div.img img{
+		width: 40%;
+	}
 }
-//スマートフォン用ＣＳＳ
-@media screen and (max-width: 480px){
-
+/* スマートフォン用ＣＳＳ */
+@media (max-device-width: 480px){
+	div.img img{
+		width: 50%;
+	}
 }
 div.map_link{
 	text-align: right;
