@@ -1,11 +1,5 @@
-div.logo{
-	background-image: url('../images/logo.png');
-	float: left;
-	display:inline-block;
-	width: 380px;
-	height: 81px;
-}
-div.banner{
+div.title{
 	background-color: black;
 	height: 81px;
+	text-align:center;
 }
