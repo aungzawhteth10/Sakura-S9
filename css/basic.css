@@ -24,3 +24,9 @@ div.map_link{
 p.copyright{
 	text-align: center;
 }
+.contact_phone{
+	text-align: center;;
+}
+.map_link img:hover, .mail:hover{
+	cursor: pointer;
+}
