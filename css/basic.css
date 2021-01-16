@@ -3,3 +3,11 @@ div.title{
 	height: 81px;
 	text-align:center;
 }
+//PC用ＣＳＳ
+@media screen and (min-width: 481px){
+
+}
+//スマートフォン用ＣＳＳ
+@media screen and (max-width: 480px){
+
+}
