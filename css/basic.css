@@ -3,39 +3,36 @@ div.title{
 	height: 81px;
 	text-align: center;
 }
-h3{
+h3, .pc_footer, h1, .tabeho p{
 	text-align: center;
 }
 /* PC用ＣＳＳ */
 @media (min-device-width: 481px){
-	div.img img{
-		width: 50%;
+	div.tabeho img{
+		width: 49%;
 	}
-	.contact_phone{
+	.no_pc_footer{
 		visibility: hidden;
 	}
 }
 /* スマートフォン用ＣＳＳ */
 @media (max-device-width: 480px){
-	div.img img{
+	div.tabeho img{
 		width: 100%;
 	}
-	.contact_phone{
+	.no_pc_footer{
 		text-align: center;
 		position: fixed;
 		bottom: 0;
 		left: 0;
 		right: 0;
 	}
-	footer{
+	.pc_footer{
 		visibility: hidden;
 	}
 }
 div.map_link{
 	text-align: right;
-}
-footer{
-	text-align: center;
 }
 .map_link img:hover, .mail:hover{
 	cursor: pointer;
